@@ -7,6 +7,10 @@
 // @match        https://www.netflix.com/*
 // @match        https://www.hulu.com/*
 // @match        https://www.crunchyroll.com/*
+// @match        https://www.youtube.com/*
+// @match        https://www.hbomax.com/*
+// @match        https://www.showtime.com/*
+// @match        https://www.vudu.com/*
 // @icon         https://i.pinimg.com/originals/9e/d8/61/9ed86194c90b60ad5ce0e14fdb1b97d5.png
 // @grant        window.focus
 // ==/UserScript==
