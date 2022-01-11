@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         DRM Bypass
-// @namespace    https://cdn.discordapp.com
+// @namespace    https://github.com/jim-othy/DRMBypass
 // @version      1.5
 // @description  Simulates a fault(Fake) page cast to bypass Google's Digital Rights Management Block, allowing you to Record or Screenshot a website no matters its Security Policy/DRM.
 // @author       Jimothy
