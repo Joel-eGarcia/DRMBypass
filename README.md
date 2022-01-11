@@ -16,10 +16,10 @@ allowing you to Record or Screenshot a website no matters its Security Policy.
    keep in mind this is just a JavaScript,          
    no executables are involved.
 
--  [GitHub Download]()
+-  [GitHub Download](https://github.com/jim-othy/DRMBypass/raw/main/DRM%20Bypass.user.js) - Most To-Date
 
--  [Google Drive Download]()
+-  [TM Download](chrome-extension://dhdgffkkebhmkfjojejmpbldmpobfkfo/ask.html?aid=94506fc7-b7da-48bc-a0d8-52b9fc0d5ec1)
 
--  [Discord Download]()
+-  [Discord Download](https://cdn.discordapp.com/attachments/930294448666062878/930295022954360922/DRM_Bypass.user.js)
 
 -  [Torrent Download]()
