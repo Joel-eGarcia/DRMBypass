@@ -1,0 +1,629 @@
+<html><head><script async="" type="text/javascript" src="https://script.4dex.io/localstore.js?upapi=true"></script><style><!----> .osano-cm-window{font-smooth:always;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothingz:auto;--fade-transition-time:700ms;display:block;font-family:Helvetica,Arial,Hiragino Sans GB,STXihei,Microsoft YaHei,WenQuanYi Micro Hei,Hind,MS Gothic,Apple SD Gothic Neo,NanumBarunGothic,sans-serif;font-size:16px;left:0;line-height:1;position:absolute;top:0;width:100%;z-index:2147483638}.osano-cm-window--context_amp{height:100%}.osano-visually-hidden{height:1px;left:-10000px;margin:-1px;opacity:0;overflow:hidden;position:absolute;width:1px}.osano-cm-button{border-radius:.25em;border-style:solid;border-width:thin;cursor:pointer;flex:1 1 auto;font-size:1em;font-weight:700;line-height:1;margin:.125em;min-width:6em;padding:.5em .75em;transition-duration:.2s;transition-property:background-color;transition-timing-function:ease-out}.osano-cm-button--type_icon{border-radius:50%;height:1em;line-height:0;min-width:1em;width:1em}.osano-cm-button:focus,.osano-cm-button:hover{outline:none}.osano-cm-close{stroke-width:1px;border-radius:50%;border-style:solid;border-width:2px;box-sizing:initial;cursor:pointer;height:20px;margin:.5em;min-height:20px;min-width:20px;order:0;outline:none;overflow:hidden;padding:0;text-decoration:none;transform:rotate(0deg);transition-duration:.2s;transition-property:transform,color,background-color,stroke,stroke-width;transition-timing-function:ease-out;width:20px;z-index:2}.osano-cm-close:focus,.osano-cm-close:hover{stroke-width:2px;transform:rotate(90deg)}.osano-cm-link{cursor:pointer;text-decoration:underline;transition-duration:.2s;transition-property:color;transition-timing-function:ease-out}.osano-cm-link:active,.osano-cm-link:hover{outline:none}.osano-cm-link:focus{font-weight:700;outline:none}.osano-cm-link--type_feature,.osano-cm-link--type_purpose,.osano-cm-link--type_specialFeature,.osano-cm-link--type_specialPurpose{cursor:help;display:block;-webkit-text-decoration:dashed;text-decoration:dashed}.osano-cm-link--type_denyAll{display:block;text-align:right}[dir=rtl] .osano-cm-link--type_denyAll{text-align:left}.osano-cm-link--type_vendor{display:block}.osano-cm-vendor-link{font-size:.75em}.osano-cm-list-item{margin:0}.osano-cm-list-item--type_term{border-top-style:solid;border-top-width:1px;font-size:.875rem;font-weight:400;margin-bottom:.25em;margin-top:.5em;padding:.5em .75rem 0;position:relative;top:-1px}.osano-cm-list-item--type_description{font-size:.75rem;font-weight:lighter;padding:0 .75rem}.osano-cm-list{list-style-position:outside;list-style-type:none;margin:0;padding:0}.osano-cm-list__list-item{text-indent:0}.osano-cm-list--type_description{margin:0 -1em}.osano-cm-list:first-of-type .osano-cm-list__list-item:first-of-type{border-top-width:0;margin-top:0;padding-top:0}.osano-cm-toggle{align-items:center;display:flex;flex-direction:row-reverse;justify-content:flex-start;margin:.25em 0;pointer-events:auto;position:relative}.osano-cm-toggle__label{margin:0 .5em 0 0}[dir=rtl] .osano-cm-toggle__label{margin:0 0 0 .5em}.osano-cm-toggle__switch{border-radius:14px;border-style:solid;border-width:2px;box-sizing:initial;color:transparent;display:block;flex-shrink:0;height:18px;line-height:0;margin:0;position:relative;text-indent:-9999px;transition-duration:.2s;transition-property:background-color;transition-timing-function:ease-out;width:40px}.osano-cm-toggle__switch:hover{cursor:pointer}.osano-cm-toggle__switch:after{border-radius:9px;border-width:0;height:18px;left:0;top:0;width:18px}.osano-cm-toggle__switch:before{border-radius:16px;border-width:2px;bottom:-6px;box-sizing:border-box;left:-6px;right:-6px;top:-6px}.osano-cm-toggle__switch:after,.osano-cm-toggle__switch:before{border-style:solid;content:"";margin:0;position:absolute;transform:translateX(0);transition-duration:.3s;transition-property:transform,left,border-color;transition-timing-function:ease-out}.osano-cm-toggle__switch:after:active,.osano-cm-toggle__switch:before:active{transition-duration:.1s}.osano-cm-toggle__switch:after:active{width:26px}.osano-cm-toggle__switch:before:active{width:34px}[dir=rtl] .osano-cm-toggle__switch:after{left:100%;transform:translateX(-100%)}.osano-cm-toggle__input{height:1px;left:-10000px;margin:-1px;opacity:0;overflow:hidden;position:absolute;width:1px}.osano-cm-toggle__input:disabled{cursor:default}.osano-cm-toggle--type_checkbox .osano-cm-toggle__switch{border-radius:4px;border-style:solid;border-width:1px;height:22px;width:22px}.osano-cm-toggle--type_checkbox .osano-cm-toggle__switch:after{background-color:transparent!important;border-bottom-width:2px;border-left-width:2px;border-radius:0;content:none;height:6px;left:3px;top:3px;transform:rotate(-45deg);transition-property:color;transition-timing-function:ease-out;width:12px}.osano-cm-toggle--type_opt-out .osano-cm-toggle__switch{border-radius:4px;border-style:solid;border-width:1px;height:22px;width:22px}.osano-cm-toggle--type_opt-out .osano-cm-toggle__switch:after,.osano-cm-toggle--type_opt-out .osano-cm-toggle__switch:before{background-color:transparent!important;border-bottom-width:1px;border-radius:0;border-top-width:1px;content:none;height:0;left:-3px;top:7px;transition-property:color;transition-timing-function:ease-out;width:12px}.osano-cm-toggle--type_opt-out .osano-cm-toggle__switch:after{transform:translate(50%,50%) rotate(-45deg)}.osano-cm-toggle--type_opt-out .osano-cm-toggle__switch:before{transform:translate(50%,50%) rotate(45deg)}.osano-cm-toggle__input:checked+.osano-cm-toggle__switch:after{left:100%;transform:translateX(-100%)}[dir=rtl] .osano-cm-toggle__input:checked+.osano-cm-toggle__switch:after{left:0;transform:translateX(0)}.osano-cm-toggle__input:disabled+.osano-cm-toggle__switch{cursor:default}.osano-cm-toggle--type_checkbox .osano-cm-toggle__input:checked+.osano-cm-toggle__switch:after{content:"";left:3px;top:3px;transform:rotate(-45deg)}.osano-cm-toggle--type_opt-out .osano-cm-toggle__input:checked+.osano-cm-toggle__switch:after,.osano-cm-toggle--type_opt-out .osano-cm-toggle__input:checked+.osano-cm-toggle__switch:before{content:"";left:-3px;top:7px}.osano-cm-toggle--type_opt-out .osano-cm-toggle__input:checked+.osano-cm-toggle__switch:after{transform:translate(50%,50%) rotate(-45deg)}.osano-cm-toggle--type_opt-out .osano-cm-toggle__input:checked+.osano-cm-toggle__switch:before{transform:translate(50%,50%) rotate(45deg)}.osano-cm-toggle--type_checkbox .osano-cm-toggle__input:disabled+.osano-cm-toggle__switch,.osano-cm-toggle--type_opt-out .osano-cm-toggle__input:disabled+.osano-cm-toggle__switch{opacity:.3}.osano-cm-widget{background:none;border:none;bottom:12px;cursor:pointer;height:40px;opacity:.9;outline:none;padding:0;position:fixed;transition:transform .1s linear 0s,opacity .4s linear 0ms,visibility 0ms linear 0ms;visibility:visible;width:40px;z-index:2147483636}.osano-cm-widget--position_right{right:12px}.osano-cm-widget--position_left{left:12px}.osano-cm-widget:focus,.osano-cm-widget:hover{opacity:1;transform:scale(1.1)}.osano-cm-widget--hidden{opacity:0;transition-delay:0ms,0ms,.4s;visibility:hidden}.osano-cm-widget--hidden:focus,.osano-cm-widget--hidden:hover{opacity:0;transform:scale(1)}:export{fadeTransitionTime:.7s}.osano-cm-dialog{align-items:center;box-sizing:border-box;font-size:1em;line-height:1.25;overflow:auto;padding:1.5em;position:fixed;transition-delay:0ms,0ms;transition-duration:.7s,0ms;transition-property:opacity,visibility;visibility:visible;z-index:2147483637}.osano-cm-dialog--hidden{opacity:0;transition-delay:0ms,.7s;visibility:hidden}.osano-cm-dialog--type_bar{box-sizing:border-box;display:flex;flex-direction:column;left:0;right:0}.osano-cm-dialog--type_bar .osano-cm-button{flex:none;margin:.125em auto;width:80%}@media screen and (min-width:768px){.osano-cm-dialog--type_bar{flex-direction:row}.osano-cm-dialog--type_bar .osano-cm-button{flex:1 1 100%;margin:.25em .5em;width:auto}}.osano-cm-dialog--type_box{flex-direction:column;max-height:calc(100vh - 2em);max-width:20em;width:calc(100vw - 2em)}.osano-cm-dialog__close{position:absolute;right:0;top:0}.osano-cm-dialog__list{margin:.5em 0 0;padding:0}.osano-cm-dialog__list .osano-cm-item{display:flex;margin-top:0}.osano-cm-dialog__list .osano-cm-item:last-child{margin-bottom:0}.osano-cm-dialog__list .osano-cm-toggle{flex-direction:row}[dir=rtl] .osano-cm-dialog__list .osano-cm-toggle{flex-direction:row-reverse}.osano-cm-dialog__list .osano-cm-label{white-space:nowrap}[dir=ltr] .osano-cm-dialog__list .osano-cm-label{margin-left:.375em}[dir=rtl] .osano-cm-dialog__list .osano-cm-label{margin-right:.375em}.osano-cm-dialog__buttons{display:flex;flex-wrap:wrap}.osano-cm-dialog--type_bar .osano-cm-dialog__content{flex:5;margin-bottom:.25em;width:100%}@media screen and (min-width:768px){.osano-cm-dialog--type_bar .osano-cm-dialog__content{max-height:30vh}}.osano-cm-dialog--type_box .osano-cm-dialog__content{display:flex;flex-direction:column;flex-grow:.0001;transition:flex-grow 1s linear}.osano-cm-dialog--type_bar .osano-cm-dialog__list{display:flex;flex-direction:column;flex-wrap:wrap;justify-content:flex-start;margin:.75em auto}@media screen and (min-width:376px){.osano-cm-dialog--type_bar .osano-cm-dialog__list{flex-direction:row}}@media screen and (min-width:768px){.osano-cm-dialog--type_bar .osano-cm-dialog__list{margin:.5em 0 0 auto}[dir=rtl] .osano-cm-dialog--type_bar .osano-cm-dialog__list{margin:.5em auto 0 0}}[dir=ltr] .osano-cm-dialog--type_bar .osano-cm-dialog__list .osano-cm-item{margin-right:.5em}[dir=rtl] .osano-cm-dialog--type_bar .osano-cm-dialog__list .osano-cm-item{margin-left:.5em}.osano-cm-dialog--type_bar .osano-cm-dialog__list .osano-cm-label{padding-top:0}.osano-cm-dialog--type_bar .osano-cm-dialog__buttons{flex:1;justify-content:flex-end;margin:0;width:100%}@media screen and (min-width:768px){.osano-cm-dialog--type_bar .osano-cm-dialog__buttons{margin:0 0 0 .5em;max-width:30vw;min-width:16em;position:-webkit-sticky;position:sticky;top:0;width:auto}[dir=rtl] .osano-cm-dialog--type_bar .osano-cm-dialog__buttons{margin:0 .5em 0 0}}.osano-cm-dialog--type_box .osano-cm-dialog__buttons{margin:.5em 0 0}.osano-cm-dialog--type_bar.osano-cm-dialog--position_top{top:0}.osano-cm-dialog--type_bar.osano-cm-dialog--position_bottom{bottom:0}.osano-cm-dialog--type_box.osano-cm-dialog--position_top-left{left:1em;top:1em}.osano-cm-dialog--type_box.osano-cm-dialog--position_top-right{right:1em;top:1em}.osano-cm-dialog--type_box.osano-cm-dialog--position_bottom-left{bottom:1em;left:1em}.osano-cm-dialog--type_box.osano-cm-dialog--position_bottom-right{bottom:1em;right:1em}.osano-cm-dialog--type_box.osano-cm-dialog--position_center{left:50%;top:50%;transform:translate(-50%,-50%)}.osano-cm-dialog--context_amp{height:100%;position:relative}.osano-cm-content__message{margin-bottom:1em;padding-bottom:1.5em;word-break:break-word}.osano-cm-drawer-links{margin:.5em 0 0}.osano-cm-drawer-links__link{display:block}.osano-cm-storage-policy{display:inline-block}.osano-cm-usage-list__list{list-style-position:inside;list-style-type:disc}.osano-cm-info-dialog{height:100vh;left:0;position:fixed;top:0;transition-delay:0ms,0ms;transition-duration:.2s,0ms;transition-property:opacity,visibility;visibility:visible;width:100vw;z-index:2147483638}.osano-cm-info-dialog--hidden{opacity:0;transition-delay:0ms,.2s;visibility:hidden}.osano-cm-info{-webkit-animation:delay-overflow .4s;animation:delay-overflow .4s;bottom:0;box-shadow:0 0 2px 2px #ccc;box-sizing:border-box;max-width:20em;overflow-x:visible;overflow-y:visible;position:fixed;top:0;transition-duration:.4s;transition-property:transform;width:100%}.osano-cm-info--position_left{left:0;transform:translate(-100%)}.osano-cm-info--position_right{right:0;transform:translate(100%)}.osano-cm-info--open{-webkit-animation:none;animation:none;overflow-x:hidden;overflow-y:auto;transform:translate(0)}.osano-cm-info-views{align-items:flex-start;display:flex;flex-direction:row;flex-wrap:nowrap;height:100%;transition-duration:.4s;transition-property:transform;width:100%}[dir=rtl] .osano-cm-info-views{flex-direction:row-reverse}.osano-cm-info-views__view{box-sizing:border-box;flex-shrink:0;width:100%}.osano-cm-info-views--position_0>:not(:first-of-type),.osano-cm-info-views--position_1>:not(:nth-of-type(2)),.osano-cm-info-views--position_2>:not(:nth-of-type(3)){max-height:100%;overflow:hidden}.osano-cm-view{height:0;padding:0 .75em 1em;transition-delay:.4s;transition-duration:0ms;transition-property:height,visibility;visibility:hidden;width:100%}.osano-cm-view__button{font-size:.875em;margin:1em 0 0;width:100%}.osano-cm-view--active{height:auto;transition-delay:0ms;visibility:visible}.osano-cm-header{margin:0 0 -1em;padding:1em 0;position:-webkit-sticky;position:sticky;top:0;z-index:1}.osano-cm-description{font-size:.75em;font-weight:300;line-height:1.375;margin:1em 0 0}.osano-cm-description:first-child{margin:0}.osano-cm-description:last-of-type{margin-bottom:1em}.osano-cm-drawer-toggle .osano-cm-label{font-size:.875em;margin:0 auto 0 0}[dir=rtl] .osano-cm-drawer-toggle .osano-cm-label{margin:0 0 0 auto}.osano-cm-info-dialog-header{align-items:center;display:flex;flex-direction:row-reverse;left:auto;min-height:3.25em;position:-webkit-sticky;position:sticky;top:0;width:100%;z-index:1}[dir=rtl] .osano-cm-info-dialog-header{flex-direction:row}.osano-cm-info-dialog-header__header{align-items:center;display:flex;flex:1 1 auto;font-size:1em;justify-content:flex-start;margin:0;order:1;padding:1em .75em}.osano-cm-info-dialog-header__description{font-size:.75em;line-height:1.375}.osano-cm-back,.osano-cm-info-dialog-header__close{position:relative}.osano-cm-back{flex:0 1 auto;margin:0 0 0 .5em;min-width:0;order:2;width:auto;z-index:2}[dir=rtl] .osano-cm-back{margin:0 .5em 0 0}.osano-cm-powered-by{align-items:center;display:flex;flex-direction:column;justify-content:center;margin:1em 0}.osano-cm-powered-by__link{font-size:.625em;text-decoration:none}@-webkit-keyframes delay-overflow{0%{overflow-x:hidden;overflow-y:auto}}@keyframes delay-overflow{0%{overflow-x:hidden;overflow-y:auto}}.osano-cm-expansion-panel{border-bottom:1px solid rgba(0,0,0,.1);display:block;font-size:.75em;margin:0 -1.5em 1em;padding:1.5em 1.5em 0}.osano-cm-expansion-panel--expanded{border-bottom:none}.osano-cm-expansion-panel--empty,.osano-cm-expansion-panel--empty:not([open]){border-bottom:1px solid rgba(0,0,0,.1);padding-bottom:0}.osano-cm-expansion-panel__body{background-color:rgba(0,0,0,.1);line-height:1.25;list-style:none;margin:0 -1.5em;max-height:0;overflow:hidden;padding:0 1.5em;transition-delay:0ms,0ms,0ms,.3s;transition-duration:.3s,.3s,.3s,0s;transition-property:max-height,padding-top,padding-bottom,visibility;transition-timing-function:ease-out;visibility:hidden}.osano-cm-expansion-panel__toggle{cursor:pointer;display:block;line-height:1.25;margin:0 auto 1em 0;outline:none;position:relative}.osano-cm-expansion-panel__toggle:active,.osano-cm-expansion-panel__toggle:focus,.osano-cm-expansion-panel__toggle:hover{outline:none}[dir=rtl] .osano-cm-expansion-panel__toggle{margin:0 0 1em auto}.osano-cm-expansion-panel--expanded .osano-cm-expansion-panel__body{padding:1.25em 1.5em 1em;transition-delay:0ms,0ms,0ms,0ms;visibility:visible}.osano-cm-cookie-disclosure__title,.osano-cm-script-disclosure__title{border:0;clear:both;display:block;flex:0 1 30%;font-size:1em;font-weight:700;line-height:1.375;margin:0 0 .5em;padding:0}.osano-cm-cookie-disclosure__description,.osano-cm-script-disclosure__description{flex:0 1 70%;font-size:1em;line-height:1.375;margin:0 0 .5em;padding:0}.osano-cm-disclosure{border-bottom:none;display:block;font-size:.75em;margin:0 -1.5em 1em;padding:1.5em 1.5em 0}.osano-cm-disclosure--collapse{border-bottom:1px solid rgba(0,0,0,.1);padding-bottom:1em}.osano-cm-disclosure--empty,.osano-cm-disclosure--empty:not([open]){border-bottom:1px solid rgba(0,0,0,.1);padding-bottom:0}.osano-cm-disclosure__list{background-color:rgba(0,0,0,.1);line-height:1.25;list-style:none;margin:0 -1.5em;padding:1.25em 1.5em 1em}.osano-cm-disclosure__list:empty{border:none;padding:0 1.5em}.osano-cm-disclosure__list:first-of-type{margin-top:1em;padding:1.25em 1.5em 1em}.osano-cm-disclosure__list:first-of-type:empty{padding:1.75em 1.5em .75em}.osano-cm-disclosure__list:not(:first-of-type):not(:empty){border-top:1px solid rgba(0,0,0,.1)}.osano-cm-disclosure__list:empty+.osano-cm-disclosure__list:not(:empty){border:none;padding:0 1.5em}.osano-cm-disclosure__list:not(:empty)~.osano-cm-disclosure__list:empty+.osano-cm-disclosure__list:not(:empty){border-top:1px solid rgba(0,0,0,.1)}.osano-cm-disclosure__list>.osano-cm-list-item{line-height:1.25}.osano-cm-disclosure__list>.osano-cm-list-item:not(:first-of-type){border-top:1px solid rgba(0,0,0,.1);margin:1em -1.25em 0;padding:1em 1.25em 0}.osano-cm-disclosure__toggle{cursor:pointer;display:block;line-height:1.25;margin:0 auto 0 0;outline:none;position:relative}.osano-cm-disclosure__toggle:active,.osano-cm-disclosure__toggle:hover{outline:none}.osano-cm-disclosure__toggle:focus{font-weight:700;outline:none}[dir=rtl] .osano-cm-disclosure__toggle{margin:0 0 0 auto}.osano-cm-disclosure--loading .osano-cm-disclosure__list{height:0;line-height:0;max-height:0}.osano-cm-disclosure--loading .osano-cm-disclosure__list>*{display:none}.osano-cm-disclosure--loading .osano-cm-disclosure__list:after{-webkit-animation-duration:1s;animation-duration:1s;-webkit-animation-iteration-count:infinite;animation-iteration-count:infinite;-webkit-animation-name:osano-load-scale;animation-name:osano-load-scale;-webkit-animation-timing-function:ease-in-out;animation-timing-function:ease-in-out;border-radius:100%;content:"";display:block;height:1em;position:relative;top:-.125em;transform:translateY(-50%);width:1em}.osano-cm-disclosure--collapse .osano-cm-disclosure__list{display:none}.osano-cm-disclosure--collapse .osano-cm-disclosure__list:after{content:none}.osano-cm-cookie-disclosure,.osano-cm-script-disclosure{display:flex;flex-wrap:wrap;margin:0}.osano-cm-cookie-disclosure__description:last-of-type,.osano-cm-cookie-disclosure__title:last-of-type,.osano-cm-script-disclosure__description:last-of-type,.osano-cm-script-disclosure__title:last-of-type{margin-bottom:0}@-webkit-keyframes osano-load-scale{0%{transform:translateY(-50%) scale(0)}to{opacity:0;transform:translateY(-50%) scale(1)}}@keyframes osano-load-scale{0%{transform:translateY(-50%) scale(0)}to{opacity:0;transform:translateY(-50%) scale(1)}} .osano-cm-window { direction: ltr; text-align: left; } .osano-cm-dialog { background: #000; color: #fff; } .osano-cm-dialog__close { color: #fff; stroke: #fff; } .osano-cm-dialog__close:focus { background-color: #fff; border-color: #fff; stroke: #000; } .osano-cm-dialog__close:hover { stroke: #ebebeb; } .osano-cm-dialog__close:focus:hover { stroke: #141414; } .osano-cm-info-dialog { background: rgba(0,0,0,0.45); } .osano-cm-header, .osano-cm-info-dialog-header { background: #fff; background: linear-gradient( 180deg, #fff 2.5em, rgba(255,255,255,0) 100% ); } .osano-cm-info { background: #fff; color: #000; } .osano-cm-close { background-color: transparent; border-color: transparent; } .osano-cm-info-dialog-header__close { color: #000; stroke: #000; } .osano-cm-info-dialog-header__close:focus { background-color: #000; border-color: #000; stroke: #fff; } .osano-cm-info-dialog-header__close:hover { stroke: #141414; } .osano-cm-info-dialog-header__close:focus:hover { stroke: #ebebeb; } .osano-cm-disclosure__list:first-of-type::after { background-color: #29246a; } .osano-cm-disclosure__toggle, .osano-cm-expansion-panel__toggle { color: #29246a; } .osano-cm-disclosure__toggle:hover, .osano-cm-disclosure__toggle:active, .osano-cm-expansion-panel__toggle:hover, .osano-cm-expansion-panel__toggle:active { color: #29246a; } .osano-cm-disclosure__toggle:focus, .osano-cm-expansion-panel__toggle:focus { color: #3d387e; } .osano-cm-button { background-color: #f1d600; border-color: #000; color: #000; } .osano-cm-button--type_deny { background-color: #989; border-color: #fff; color: #fff; } .osano-cm-button:focus, .osano-cm-button:hover { background-color: #ddc200; } .osano-cm-button--type_deny:focus, .osano-cm-button--type_deny:hover { background-color: #857485; } .osano-cm-link { color: #29246a; } .osano-cm-link:hover, .osano-cm-link:active { color: #29246a; } .osano-cm-link:focus { color: #3d387e; } .osano-cm-toggle__switch { background-color: #d2cfff; } .osano-cm-toggle__switch::after { background-color: #ffffff; border-color: #ffffff; } .osano-cm-toggle__switch::before { border-color: transparent; } .osano-cm-toggle__input:checked + .osano-cm-toggle__switch { background-color: #37cd8f; border-color: #37cd8f; } .osano-cm-toggle__input:checked + .osano-cm-toggle__switch::after { background-color: #f4f4f4; border-color: #f4f4f4; } .osano-cm-toggle__input:focus + .osano-cm-toggle__switch, .osano-cm-toggle__input:hover + .osano-cm-toggle__switch { background-color: #bebbeb; border-color: #bebbeb; } .osano-cm-toggle__input:focus + .osano-cm-toggle__switch::before { border-color: #bebbeb; } .osano-cm-toggle__input:checked:focus + .osano-cm-toggle__switch, .osano-cm-toggle__input:checked:hover + .osano-cm-toggle__switch { background-color: #23b97b; border-color: #23b97b; } .osano-cm-toggle__input:checked:focus + .osano-cm-toggle__switch::before { border-color: #23b97b; } .osano-cm-toggle__input:disabled + .osano-cm-toggle__switch, .osano-cm-toggle__input:disabled:focus + .osano-cm-toggle__switch, .osano-cm-toggle__input:disabled:hover + .osano-cm-toggle__switch { background-color: #928fbf; border-color: #928fbf; } .osano-cm-toggle__input:disabled + .osano-cm-toggle__switch::after, .osano-cm-toggle__input:disabled:focus + .osano-cm-toggle__switch::after, .osano-cm-toggle__input:disabled:hover + .osano-cm-toggle__switch::after { background-color: #bfbfbf; border-color: #bfbfbf; } .osano-cm-toggle__input:disabled + .osano-cm-toggle__switch::before, .osano-cm-toggle__input:disabled:focus + .osano-cm-toggle__switch::before, .osano-cm-toggle__input:disabled:hover + .osano-cm-toggle__switch::before { border-color: transparent; } .osano-cm-toggle__input:disabled:checked + .osano-cm-toggle__switch, .osano-cm-toggle__input:disabled:checked:focus + .osano-cm-toggle__switch, .osano-cm-toggle__input:disabled:checked:hover + .osano-cm-toggle__switch { background-color: #008d4f; border-color: #008d4f; } .osano-cm-toggle__input:disabled:checked + .osano-cm-toggle__switch::after, .osano-cm-toggle__input:disabled:checked:focus + .osano-cm-toggle__switch::after, .osano-cm-toggle__input:disabled:checked:hover + .osano-cm-toggle__switch::after { background-color: #b4b4b4; border-color: #b4b4b4; } .osano-cm-toggle__input:disabled:checked + .osano-cm-toggle__switch::before, .osano-cm-toggle__input:disabled:checked:focus + .osano-cm-toggle__switch::before, .osano-cm-toggle__input:disabled:checked:hover + .osano-cm-toggle__switch::before { border-color: transparent; } <!----></style>
+<!--Google Tag Manager--><link rel="preload" as="script" href="//rumcdn.geoedge.be/33cea31c-ec69-44af-afb7-3e0656e35da6/grumi.js"><script async="" type="text/javascript" src="//ads.pubmatic.com/AdServer/js/pwt/160547/3817/pwt.js"></script><script async="" src="//c.amazon-adsystem.com/aax2/apstag.js"></script><script src="https://www.googletagservices.com/tag/js/gpt.js"></script><script async="" type="text/javascript" src="https://www.google-analytics.com/analytics.js"></script><script async="" src="https://www.googletagmanager.com/gtm.js?id=GTM-KMWQQQT"></script><!--End Google Tag Manager--><script async="" src="https://sb.scorecardresearch.com/cs/10037191/beacon.js"></script><script async="" src="https://connect.facebook.net/en_US/fbevents.js"></script><script src="https://cmp.osano.com/AzyWAQS5NWEEWkU9/df34419d-698a-4f5c-9dd9-72cd58fa57d7/osano.js?language=en"></script><style>.osano-cm-widget{display:none;}</style><script language="javascript" src="https://www.trackwrestling.com/google_tag_manager.js?version=40"></script>
+<script>dataLayer = [];</script>
+<!-- Facebook Pixel Code --><script>window.addEventListener('load', () => {if(typeof fbq === 'undefined' && window.self === window.top){!function(f,b,e,v,n,t,s){n=f.fbq=function(){n.callMethod?n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,document,'script','https://connect.facebook.net/en_US/fbevents.js');fbq('init', '634980329980573');fbq('track', 'PageView');}});</script><noscript><img height='1' width='1' src='https://www.facebook.com/tr?id=634980329980573&ev=PageView&noscript=1'/></noscript><!-- End Facebook Pixel Code --><!-- Begin comScore Tag --><script>window.addEventListener('load', () => {if (typeof _comscore === 'undefined' && window.self === window.top){(function() {window._comscore = window._comscore || [];_comscore.push({ c1: '2', c2: '10037191' });var s = document.createElement('script'), el = document.getElementsByTagName('script')[0]; s.async = true;s.src = 'https://sb.scorecardresearch.com/cs/10037191/beacon.js';el.parentNode.insertBefore(s, el);})();}});</script><noscript><img src='https://sb.scorecardresearch.com/p?c1=2&amp;c2=10037191&amp;cv=3.6.0&amp;cj=1'></noscript><!-- End comScore Tag --><script language="javascript" src="/jquery.min.js"></script>
+
+
+
+
+<!--
+********************************************************************
+TW Menu Code
+********************************************************************-->
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<meta name="description" content="12/10 - 12/10/2022"> 
+	<meta name="google" content="notranslate">
+	<meta name="twitter:card" content="summary">
+	<meta name="twitter:site" content="Trackwrestling">
+	<meta name="twitter:url" content="https://www.trackwrestling.com/tw/teamtournaments/VerifyPassword.jsp?tournamentId=689733132">
+	<meta name="twitter:title" content="Rebel Duals ">
+	<meta name="twitter:description" content="12/10 - 12/10/2022">
+	<meta name="twitter:image:src" content="https://www.trackwrestling.com/tw/uploads/T-641174132-TCHlogo.png">
+	<meta property="fb:app_id" content="586566908191045">
+	<meta property="og:type" content="website">
+	<meta property="og:site_name" content="Trackwrestling">
+	<meta property="og:url" content="https://www.trackwrestling.com/tw/teamtournaments/VerifyPassword.jsp?tournamentId=689733132">
+	<meta property="og:title" content="Rebel Duals ">
+	<meta property="og:description" content="12/10 - 12/10/2022">
+	<meta property="og:image" content="https://www.trackwrestling.com/tw/uploads/T-641174132-TCHlogo.png">
+
+
+<link rel="stylesheet" type="text/css" href="../twstylesheet.css">
+<!--[if lt IE 9]>
+	<link rel='stylesheet' type='text/css' href='../ie-twstylesheet.css'></link>
+	<script src='../html5.js'></script>
+<![endif]-->
+
+<link rel="stylesheet" type="text/css" href="../twIconSet.css">
+
+<script language="javascript" src="../jquery.min.js"></script>
+
+<link rel="stylesheet" type="text/css" href="../tw.css">
+
+<link rel="stylesheet" type="text/css" href="../stylesheet.css">
+<link rel="stylesheet" type="text/css" href="../pageContentStylesheet.css">
+
+<script language="javascript" src="../Pile.js"></script>
+<script language="javascript" src="../Ajax.js"></script>
+<script language="javascript" src="../FormatFormFields.js"></script>
+<script language="javascript" src="../Essentials.js"></script>
+
+<script language="javascript" src="../MyTrack.js"></script><meta http-equiv="origin-trial" content="Az6AfRvI8mo7yiW5fLfj04W21t0ig6aMsGYpIqMTaX60H+b0DkO1uDr+7BrzMcimWzv/X7SXR8jI+uvbV0IJlwYAAACFeyJvcmlnaW4iOiJodHRwczovL2RvdWJsZWNsaWNrLm5ldDo0NDMiLCJmZWF0dXJlIjoiUHJpdmFjeVNhbmRib3hBZHNBUElzIiwiZXhwaXJ5IjoxNjgwNjUyNzk5LCJpc1N1YmRvbWFpbiI6dHJ1ZSwiaXNUaGlyZFBhcnR5Ijp0cnVlfQ=="><meta http-equiv="origin-trial" content="A+USTya+tNvDPaxUgJooz+LaVk5hPoAxpLvSxjogX4Mk8awCTQ9iop6zJ9d5ldgU7WmHqBlnQB41LHHRFxoaBwoAAACLeyJvcmlnaW4iOiJodHRwczovL2dvb2dsZXN5bmRpY2F0aW9uLmNvbTo0NDMiLCJmZWF0dXJlIjoiUHJpdmFjeVNhbmRib3hBZHNBUElzIiwiZXhwaXJ5IjoxNjgwNjUyNzk5LCJpc1N1YmRvbWFpbiI6dHJ1ZSwiaXNUaGlyZFBhcnR5Ijp0cnVlfQ=="><meta http-equiv="origin-trial" content="A7FovoGr67TUBYbnY+Z0IKoJbbmRmB8fCyirUGHavNDtD91CiGyHHSA2hDG9r9T3NjUKFi6egL3RbgTwhhcVDwUAAACLeyJvcmlnaW4iOiJodHRwczovL2dvb2dsZXRhZ3NlcnZpY2VzLmNvbTo0NDMiLCJmZWF0dXJlIjoiUHJpdmFjeVNhbmRib3hBZHNBUElzIiwiZXhwaXJ5IjoxNjgwNjUyNzk5LCJpc1N1YmRvbWFpbiI6dHJ1ZSwiaXNUaGlyZFBhcnR5Ijp0cnVlfQ=="><script src="https://securepubads.g.doubleclick.net/gpt/pubads_impl_2022120501.js" async=""></script><script src="//secure.cdn.fastclick.net/js/pubcid/latest/pubcid.min.js"></script><script crossorigin="anonymous" async="" type="text/javascript" src="https://btloader.com/recovery?w=5669494167961600&amp;upapi=true"></script><style>
+#fixed-ad-frame {
+  position: static !important;
+  background: none !important;
+}</style><script async="" type="text/javascript" src="//www.googletagservices.com/tag/js/gpt.js?upapi=true"></script><script async="" type="text/javascript" src="https://adservice.google.com/adsid/integrator.js?domain=www.trackwrestling.com&amp;upapi=true"></script><script async="" type="text/javascript" src="https://securepubads.g.doubleclick.net/gpt/pubads_impl_2022120501.js?upapi=true"></script><link rel="preload" href="https://adservice.google.com/adsid/integrator.js?domain=www.trackwrestling.com&amp;upapi=true" as="script"><script type="text/javascript" src="https://adservice.google.com/adsid/integrator.js?domain=www.trackwrestling.com&amp;upapi=true"></script><style id="bt-render-styles" type="text/css">.up-hide { display: none !important; }.ahover + [id^="google_ads_iframe_"] { width: 1px !important; height:1px !important; display: grid !important; }</style></head><body onclick="try{bodyClicked();}catch(clickE){}" onload="try{twMenuStartUp();verifyUser();startUp();}catch(clickE){}" onresize="setFrameHeight()" style="background-color:white;overflow:hidden;" data-new-gr-c-s-check-loaded="14.1088.0" data-gr-ext-installed="" data-new-gr-c-s-loaded="14.1088.0"><!--Google Tag Manager (noscript)--><noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KMWQQQT" height="0" width="0" style="display: none; visibility: hidden;"></iframe></noscript><!--End Google Tag Manager (noscript)--><div data-nosnippet="" class="osano-cm-window" dir="ltr"><!----> <div hidden="" class="osano-visually-hidden"> <span id="osano-cm-aria.newWindow"><!---->Opens in a new window<!----></span> <span id="osano-cm-aria.external"><!---->Opens an external website<!----></span> <span id="osano-cm-aria.externalNewWindow"><!---->Opens an external website in a new window<!----></span> </div>  <div role="dialog" id="87b4a8d9-a67c-4c7a-8a43-416d88dbdf4f" aria-describedby="87b4a8d9-a67c-4c7a-8a43-416d88dbdf4f__label" class="osano-cm-window__dialog osano-cm-dialog osano-cm-dialog--hidden osano-cm-dialog--position_bottom osano-cm-dialog--type_bar">  <button class="osano-cm-dialog__close osano-cm-close"> <svg width="20px" height="20px" viewBox="0 0 20 20" role="img" aria-labelledby="4412c32e-c16c-4769-b84f-8ab0d03aff35"> <title id="4412c32e-c16c-4769-b84f-8ab0d03aff35"><!---->Close this dialog<!----></title> <line role="presentation" x1="2" y1="2" x2="18" y2="18"></line> <line role="presentation" x1="2" y1="18" x2="18" y2="2"></line> </svg> </button>  <div class="osano-cm-dialog__content osano-cm-content">  <span id="87b4a8d9-a67c-4c7a-8a43-416d88dbdf4f__label" class="osano-cm-content__message osano-cm-message"> This website stores data such as cookies to enable essential site functionality, as well as marketing, personalization, and analytics. By remaining on this website you indicate your consent.  </span>   <!----><a rel="noopener" tabindex="0" href="https://www.flosports.tv/privacy-policy/" target="_blank" class="osano-cm-storage-policy osano-cm-content__link osano-cm-link" aria-describedby="osano-cm-aria.newWindow"><!---->Data Storage Policy<!----></a><!---->   </div>  </div>   <button id="2a3f5bb1-fd5d-4441-94c2-6f3e0c0afed2" class="osano-cm-window__widget osano-cm-widget osano-cm-widget--position_left" title="Cookie Preferences" aria-label="Cookie Preferences"> <svg width="40" height="40" viewBox="0 0 71.85 72.23" xmlns="http://www.w3.org/2000/svg"> <path d="m67.6 36.73a6.26 6.26 0 0 1 -3.2-2.8 5.86 5.86 0 0 0 -5.2-3.1h-.3a11 11 0 0 1 -11.4-9.5 6 6 0 0 1 -.1-1.4 9.2 9.2 0 0 1 .4-2.9 8.65 8.65 0 0 0 .2-1.6 5.38 5.38 0 0 0 -1.9-4.3 7.3 7.3 0 0 1 -2.5-5.5 3.91 3.91 0 0 0 -3.5-3.9 36.46 36.46 0 0 0 -15 1.5 33.14 33.14 0 0 0 -22.1 22.7 35.62 35.62 0 0 0 -1.5 10.2 34.07 34.07 0 0 0 4.8 17.6.75.75 0 0 0 .07.12c.11.17 1.22 1.39 2.68 3-.36.47 5.18 6.16 5.65 6.52a34.62 34.62 0 0 0 55.6-21.9 4.38 4.38 0 0 0 -2.7-4.74z" stroke-width="3" style="fill: rgb(255, 255, 255); stroke: rgb(41, 36, 106);"></path> <path d="m68 41.13a32.37 32.37 0 0 1 -52 20.5l-2-1.56c-2.5-3.28-5.62-7.15-5.81-7.44a32 32 0 0 1 -4.5-16.5 34.3 34.3 0 0 1 1.4-9.6 30.56 30.56 0 0 1 20.61-21.13 33.51 33.51 0 0 1 14.1-1.4 1.83 1.83 0 0 1 1.6 1.8 9.38 9.38 0 0 0 3.3 7.1 3.36 3.36 0 0 1 1.2 2.6 3.37 3.37 0 0 1 -.1 1 12.66 12.66 0 0 0 -.5 3.4 9.65 9.65 0 0 0 .1 1.7 13 13 0 0 0 10.5 11.2 16.05 16.05 0 0 0 3.1.2 3.84 3.84 0 0 1 3.5 2 10 10 0 0 0 4.1 3.83 2 2 0 0 1 1.4 2z" stroke-width="3" style="fill: rgb(255, 255, 255); stroke: rgb(41, 36, 106);"></path> <g style="fill: rgb(55, 205, 143);"> <path d="m26.6 31.43a5.4 5.4 0 1 1 5.4-5.43 5.38 5.38 0 0 1 -5.33 5.43z"></path> <path d="m25.2 53.13a5.4 5.4 0 1 1 5.4-5.4 5.44 5.44 0 0 1 -5.4 5.4z"></path> <path d="m47.9 52.33a5.4 5.4 0 1 1 5.4-5.4 5.32 5.32 0 0 1 -5.24 5.4z"></path> </g> </svg> </button>  <div role="dialog" aria-modal="true" id="c4294110-1429-4c49-9d02-0bac800576a8" aria-labelledby="c4294110-1429-4c49-9d02-0bac800576a8__label" aria-hidden="true" class="osano-cm-window__info-dialog osano-cm-info-dialog osano-cm-info-dialog--hidden"> <!----><span tabindex="0" aria-hidden="true" role="first"></span><!----> <div role="presentation" class="osano-cm-info-dialog__info osano-cm-info osano-cm-info--position_left"> <div role="presentation" class="osano-cm-info__info-dialog-header osano-cm-info-dialog-header"> <p role="heading" aria-level="1" id="c4294110-1429-4c49-9d02-0bac800576a8__label" class="osano-cm-info-dialog-header__header osano-cm-header">  </p> <button class="osano-cm-info-dialog-header__close osano-cm-close"> <svg width="20px" height="20px" viewBox="0 0 20 20" role="img" aria-labelledby="d023ef3e-ada6-4984-8d7f-e6e6e985343a"> <title id="d023ef3e-ada6-4984-8d7f-e6e6e985343a"><!---->Close Cookie Preferences<!----></title> <line role="presentation" x1="2" y1="2" x2="18" y2="18"></line> <line role="presentation" x1="2" y1="18" x2="18" y2="2"></line> </svg> </button>  </div> <div role="presentation" class="osano-cm-info__info-views osano-cm-info-views osano-cm-info-views--hidden osano-cm-info-views--position_0" style="transform: translateX(0%);">  </div> </div> <!----><span tabindex="0" aria-hidden="true" role="last"></span><!----> </div> <!----></div><form id="myTrackForm" name="myTrackForm" method="post" style="position:absolute;"><input type="hidden" id="stop" name="stop" value="true"></form>
+
+<iframe name="__uspapiLocator" style="display: none;"></iframe><iframe name="__tcfapiLocator" style="display: none;"></iframe><!--***************************************************************-->
+
+<script language="javascript" src="../TWPage.js"></script>
+<link rel="stylesheet" type="text/css" href="../tw_page.css">
+<!--[if lt IE 9]>
+	<link rel='stylesheet' type='text/css' href='../ie-tw_page.css'></link>
+<![endif]-->
+
+<script language="javascript" src="../G1Menu.js"></script>
+<link rel="stylesheet" type="text/css" href="../g1_menu.css">
+<!--[if lt IE 9]>
+	<link rel='stylesheet' type='text/css' href='../ie-g1_menu.css'></link>
+<![endif]-->
+
+<script language="javascript" src="../TWSlider.js"></script>
+<link rel="stylesheet" type="text/css" href="../twSlider.css">
+
+<!--***************************************************************-->
+
+<script language="javascript" src="../TWMenu.js"></script>
+
+<!--
+********************************************************************
+TW Menu Code
+********************************************************************
+-->
+
+<script language="javascript">
+
+isGoldMember = false;
+isPlusMember = false;
+isMyTrackMember = true;
+twMenuSessionId = "alvecsztui";
+twMenuFilePrefix = "..";
+twMenuLinkPrefix = "..";
+twMenuLinkParms = "&fromDomain=0.0";
+twMenuSubDir = "teamtournaments";
+twMenuShowBrackets = false;
+
+myTrackTWId = "1026053135";
+myTrackFirstName = "Josh";
+myTrackLastName = "Fruge";
+myTrackEmail = "joshwfruge@gmail.com";
+myTrackVerifiedEmail = "N";
+myTrackPword = "yjwsatsnrwtotzptdmgqjdvftunhbmxgevqqfcshfxhlnsvgalrnnctqimxyjyrm";
+
+var headerHeight = "";
+var headerBG = (""==""?"#0070BB":"");
+var headerURL = "";
+
+</script>
+<!--***************************************************************-->
+
+<style>
+
+ .primary-background { background: rgba(0,112,187,.95); } 
+
+
+.fixed-ad-frame {
+	border-top: 1px solid #f1f1f1;
+	display: table;
+	table-layout: auto;
+	width: 100%;
+	position: fixed;
+	bottom: 0;
+	background: white;
+}
+
+.ad-slot-frame {
+	display: table-cell;
+	overflow: hidden;
+	text-align: center;
+	vertical-align: middle;
+}
+
+</style>
+
+<script language="javascript">
+
+var twPage = getPageNameValue();
+var subpageCategory = getSubCategoryValue();
+(function(){
+	var d = {"twTournamentId":"689733132","twEventName":"Rebel Duals ","twEmailHash":"f6ed92c216dc0de0fbc3e3c6d03738d01d8706f625b1009bee3032f814f3d46e","twEventType":"T","twUserType":"viewer","twEventId":"689733132","twPageCategory":"events"};
+	d.twPage = twPage;
+	try{
+		dataLayer.push(d);
+	}catch(e){
+		console.log(e);
+	}
+})();
+
+try {
+	Object.assign(gtmObject, {"slots": ["footer"], "adUnit": "event"});
+	Object.assign(gtmObject.targeting, {
+		"zone": ["events"],
+		"state_id": ["20"],
+		"governing_body_id": ["24"],
+		"year": ["2022"],
+		"month": ["12"]
+	});
+} catch(e) {
+	console.log(e);
+}	
+
+try{ initGoogleTagManager(3); }catch(err){}
+
+var themeForm = {
+
+	primary_color:															 "rgba(0,112,187,.95)",
+	secondary_color:														 "",
+	primary_text_color:													 "",
+	secondary_text_color:												 "",
+	event_header_background_image:							 ""
+
+};
+
+var mobileFrame = (mobile || getWindowInnerWidth()<=640);
+
+function startUp(){
+	try{
+
+		initG1Menu("[[\"4\",null,\"138445009\",\"Events\",\"../Login.jsp?[globalParms]\",\"N\",null,\"Event Menu\",\"<i aria-hidden=true class=icon-home></i>\",null],[\"4\",null,\"31009009\",\"Left Menu\",null,\"N\",\"worker,statistician,admin\",\"Event Menu\",null,null],[\"4\",null,\"30965009\",\"Setup\",null,\"N\",\"admin\",\"Event Menu\",null,null],[\"4\",null,\"30835009\",\"Registration\",null,\"N\",\"worker,admin\",\"Event Menu\",null,null],[\"4\",null,\"30952009\",\"Bracketing\",null,\"N\",\"admin\",\"Event Menu\",null,null],[\"4\",null,\"30808009\",\"Operating\",null,\"N\",\"worker,admin\",\"Event Menu\",null,null],[\"4\",null,\"30949009\",\"My Team\",\"javascript:changeFrame([sq][pageName][sq])\",\"N\",\"statistician\",\"Event Menu\",null,\"my_team\"],[\"4\",null,\"30950009\",\"Media Contacts\",\"javascript:changeFrame([sq]TeamMediaContacts.jsp?[globalParms][sq])\",\"N\",\"statistician\",\"Event Menu\",null,null],[\"4\",null,\"30951009\",\"Email Log\",\"javascript:changeFrame([sq]EmailLog.jsp?[globalParms][sq])\",\"N\",\"statistician\",\"Event Menu\",null,null],[\"4\",null,\"30943009\",\"Get Help\",null,\"N\",\"worker,admin\",\"Event Menu\",null,null],[\"4\",null,\"30947009\",\"FAQs\",\"javascript:openWindow([sq]../FAQDisplay.jsp?[globalParms]&staticCats=[staticCats][sq], 700, 600, [sq]maximize=yes,resizable=yes,scrollbars=yes,menubar=yes[sq], [sq]FAQDisplay[sq])\",\"N\",\"worker,admin\",\"Event Menu\",null,null],[\"4\",null,\"30948009\",\"To Do List\",\"javascript:displaySubMenuSideBar([sq]toDoListFrame[sq])\",\"N\",\"worker,admin\",\"Event Menu\",null,null],[\"4\",null,\"12031132\",\"Hub\",\"javascript:changeFrame([sq]TournamentHub.jsp?[globalParms][sq])\",\"N\",\"viewer\",\"Event Menu\",null,null],[\"4\",null,\"185469009\",\"Dashboard\",\"javascript:changeFrame([sq]TournamentDashboard.jsp?[globalParms][sq])\",\"N\",\"viewer\",\"Event Menu\",null,\"dashboard\"],[\"4\",null,\"185470009\",\"Brackets\",\"javascript:changeFrame([sq]BracketViewer.jsp?[globalParms][sq])\",\"N\",\"viewer\",\"Event Menu\",null,null],[\"4\",null,\"185471009\",\"Video\",\"javascript:changeFrame([sq]ViewerVideos.jsp?[globalParms][sq])\",\"N\",\"viewer\",\"Event Menu\",null,\"archived_video\"],[\"4\",null,\"30931009\",\"Results\",null,\"N\",\"viewer\",\"Event Menu\",null,null],[\"4\",null,\"30908009\",\"Information\",null,\"N\",\"viewer\",\"Event Menu\",null,null],[\"4\",null,\"186479009\",\"News\",\"javascript:changeFrame([sq]EventPosts.jsp?[globalParms][sq])\",\"N\",\"viewer\",\"Event Menu\",null,\"event_posts\"],[\"4\",null,\"30906009\",\"Weights\",\"javascript:changeFrame([sq]TournamentWeightClasses.jsp?[globalParms][sq])\",\"N\",\"viewer\",\"Event Menu\",null,null],[\"4\",null,\"30907009\",\"Wrestlers\",\"javascript:changeFrame([sq]TournamentParticipants.jsp?[globalParms][sq])\",\"N\",\"viewer\",\"Event Menu\",null,null],[\"4\",null,\"30905009\",\"Teams\",\"javascript:changeFrame([sq]TournamentTeams.jsp?[globalParms][sq])\",\"N\",\"viewer\",\"Event Menu\",null,null]]", "..", "alvecsztui", "", "", "");
+
+		displayAds();
+
+		updateUrlOnFrameLoad(document.getElementById("PageFrame"));
+
+		document.getElementById("loadingMessage").innerHTML = "";
+		frames['PageFrame'].location.href = replace(replace("/teamtournaments/ViewerInformation.jsp?TIM=1670817633232&twSessionId=alvecsztui",";","?"),":","&");
+		setFrameHeight();
+
+		if(false){
+			alert("NOTE: You have not matched this USA Wrestling event up with its corresponding USA Wrestling sanction and therefore are not currently setup to receive their discount.  Please click Setup => Settings and use the [GET] button in the event information section to associate this event with its sanction.");
+		}
+
+		updatePortalTheme();
+
+		if(false){
+			hideModal();
+			document.getElementById('startTimeFrame').innerHTML = drawTimeInput("eventStartTime", (0800 ? "0800" : ""), '1', '');
+			document.getElementById('endTimeFrame').innerHTML = drawTimeInput("eventEndTime", (2100 ? "2100" : ""), '1', '');
+			document.getElementById('timeZone').innerHTML = drawTimeZoneInput("C");
+			animateModal("gatherStartEndTimes", true);
+		}
+	}catch(error){
+		alert("An error occured and below is the error message.\n\n" + error.message);
+	}
+}
+
+function keyDown(e){
+	try{
+		var unicode = e.keyCode ? e.keyCode : e.charCode;
+	  if(unicode==13){
+		saveEventTimes();
+	  	return false;
+	  }
+	}catch(error){}
+	return true;
+}
+
+function displayG1MenuItem(m){
+	var userTypeCheck = m[6]=="";
+	var codeCheck = true;
+	if(m[6]!=""){
+		var arr = m[6].split(",");
+		var ut = "viewer";
+		if(arr!=null){
+			for(var i=0;i<arr.length;i++){
+				if(ut==arr[i]){
+					userTypeCheck = true;
+					break;
+				}
+			}
+		}
+	}
+
+	if(m[9]!=""){
+		// Condition to check menu_code and check conditions
+		if(m[9]=="text_msg"){
+			codeCheck = true;
+		}else if(m[9]=="dashboard"){
+			codeCheck = false;
+		}else if(m[9]=="special_pbp"){
+			codeCheck = false;
+		}else if(m[9]=="videos"){
+			codeCheck = false;
+		}else if(m[9]=="alerts"){
+			codeCheck = false;
+		}else if(m[9]=="efficiency"){
+			codeCheck = true;
+		}else if(m[9]=="alerts"){
+			codeCheck = false;
+		}else if(m[9]=="pbp"){
+			codeCheck = true;
+		}else if(m[9]=="basic_info"){
+			codeCheck = true;
+		}else if(m[9]=="download"){
+			codeCheck = false;
+		}else if(m[9]=="mats"){
+			codeCheck = true;
+		}else if(m[9]=="testing"){
+			codeCheck = false;
+		}else if(m[9]=="prelims"){
+			codeCheck = false;
+		}else if(m[9]=="videos"){
+			codeCheck = false;
+		}else if(m[9]=="matside_config"){
+			codeCheck = false;
+		}else if(m[9]=="pbp"){
+			codeCheck = true;
+		}else if(m[9]=="mats"){
+			codeCheck = true;
+		}else if(m[9]=="streams"){
+			codeCheck = false;
+		}else if(m[9]=="my_team"){
+			codeCheck = false;
+		}else if(m[9]=="notes"){
+			codeCheck = false;
+		}else if(m[9]=="archived_video"){
+			codeCheck = false;
+		}else{
+			codeCheck = false;
+		}
+
+	}
+	return userTypeCheck && codeCheck;
+}
+
+function formatG1Link(l){
+	l = replace(l, "[globalParms]", "TIM=1670817633232&twSessionId=alvecsztui");
+	l = replace(l, "[sq]", "'");
+	l = replace(l, "[dq]", "\"");
+	l = replace(l, "[tournamentId]", 689733132);
+	l = replace(l, "[staticCats]", "34007");
+	l = replace(l, "[pageName]", "/teamtournaments/ViewerInformation.jsp?TIM=1670817633232&twSessionId=alvecsztui");
+	return l;
+}
+
+function updatePortalTheme(){
+
+	if(themeForm.primary_text_color!=""){
+		var e = document.getElementById("menuHeader")
+		e.style.color = themeForm.primary_text_color;
+		e.style.textShadow = "none";
+	}
+	if(themeForm.event_header_background_image!="") document.getElementById("g1MenuHeaderBackground").style.backgroundImage = "url('"+themeForm.event_header_background_image+"')";
+
+}
+
+function verifyUser(){
+	try{
+		if("true"=="false"){
+			location.href = "../Login.jsp?TIM=1670817633232&twSessionId=alvecsztui";
+		}
+	}catch(error){
+		alert("An error occured and below is the error message.\n\n" + error.message);
+	}
+}
+
+function displayAds() {
+	if (true) {
+
+		if (true) {
+			try {
+				var adFrame = document.getElementById("fixed-ad-frame");
+				adFrame.innerHTML = "<div class='ad-slot-frame lg-ad-slot'><div id='div-ad-slot-1' class='div-ad-slot'></div></div>";
+				var divSpace = document.createElement("div");
+				divSpace.style.height = "0";
+				divSpace.id = "ad-frame-space";
+				adFrame.parentNode.appendChild(divSpace);
+				var pageFrameLoaded = false;
+				document.getElementById("PageFrame").setAttribute("onload", () => {
+					// Don't refresh ads the first time
+					if (pageFrameLoaded){
+						refreshAds()
+					} else {
+						pageFrameLoaded = true;
+					}
+				});
+				
+				window.googletag = window.googletag || {};
+				googletag.cmd = googletag.cmd || [];
+				googletag.cmd.push(() => {
+					googletag.pubads().addEventListener('slotRenderEnded', () => {
+						setFrameHeight();
+					});
+				});
+			} catch(e) {}
+		}
+	}
+}
+
+function changeTournament(tId,tName){
+	var userType = "viewer";
+	var pw = "";
+	var un = "";
+	if(userType=="admin" && tId=="689733132"){
+		changeTournamentName();
+	}else{
+		alert("You are about to switch from Rebel Duals  to " + tName + ".  If you have any window open from when you were browsing Rebel Duals , those windows will no longer work until you switch back.");
+		location.href = "VerifyPassword.jsp?TIM=1670817633232&twSessionId=alvecsztui&tournamentId="+tId+"&userType="+userType+"&userName="+un+"&password="+pw;
+	}
+}
+
+function viewFAQs(sc){
+	openPage("../FAQDisplay.jsp?TIM=1670817633232&staticCats="+sc, 500, 700, "resizable=yes,scrollbars=yes,menubar=yes", "FAQDisplay");
+}
+
+function viewAnswer(f){
+	openPage("../FAQAnswer.jsp?TIM=1670817633232&faqId="+f, 500, 700, "resizable=yes,scrollbars=yes,menubar=yes", "FAQAnswer_"+f);
+}
+
+function togglePlanItem(cb,piId){
+	callMethod("Database", "togglePlanItem_UpdateTtTournamentPlan", (cb.checked?"Y":"N") + "~" + piId, "");
+}
+
+function refreshMenu(pageName){
+	location.href = "MainFrame.jsp?TIM=1670817633232&twSessionId=alvecsztui&pageName="+pageName;
+}
+
+function setFrameHeight(){
+	var f = document.getElementById("PageFrame");
+	if(f){
+		var fy = getY(f);
+		var wh = getWindowInnerHeight();
+		var adHeight = $(document.getElementById("fixed-ad-frame")).outerHeight();
+		var frameHeight = wh - (true ? fy : 0) - adHeight;
+		f.style.height = frameHeight + "px";
+		try{ $(".g1SubMenuFrame").css("max-height", frameHeight + "px") }catch(e){}
+		try{ $(".g1SubMenuSideBarFrame").css("height", frameHeight + "px") }catch(e){}
+		try{ $("#ad-frame-space").css("height", adHeight + "px") }catch(e){}
+	}
+}
+
+function changeFrame(l){
+	setFrameHeight();
+	try{ frames['PageFrame'].displayLoadingMessage(); }catch(e){}
+	frames['PageFrame'].location.href = l;
+	closeG1SubMenu();
+}
+
+function openWindow(l, h, w, p, w){
+	closeG1SubMenu();
+	openPage(l, h, w, p, w);
+}
+
+function signedInToMyTrack(){
+	try{ frames["PageFrame"].signedInToMyTrack() }catch(e){}
+}
+
+function signedOutOfMyTrack(){
+	try{ frames["PageFrame"].signedOutOfMyTrack() }catch(e){}
+}
+
+</script>
+
+
+
+<meta http-equiv="Content-Type" content="text/html; charset=WINDOWS-1252">
+<meta name="GENERATOR" content="Oracle JDeveloper">
+<title>
+Rebel Duals 
+</title>
+
+<link rel="canonical" href="https://www.trackwrestling.com/tw/teamtournaments/VerifyPassword.jsp?tournamentId=689733132">
+
+<script type="text/javascript">var SSPstring = 'rO0ABXNyABFqYXZhLnV0aWwuSGFzaE1hcAUH2sHDFmDRAwACRgAKbG9hZEZhY3RvckkACXRocmVzaG9sZHhwP0AAAAAAADB3CAAAAEAAAAAjdAAJU1NfVGVhbUlkdAAAdAAEV29yZHB0AAtTU19Vc2VyTmFtZXB0AAtPcmRlck51bWJlcnB0AAlteVRyYWNrSWR0AAoxMDI2MDUzMTM1dAANcGFydGljaXBhbnRJZHEAfgADdAARVG91cm5hbWVudEdyb3VwSWRwdAAIbGVhZ3VlSWRxAH4AA3QACHN0VGVhbUlkcQB+AAN0AAhwb3J0YWxJZHEAfgADdAAMdG91cm5hbWVudElkdAAJNjg5NzMzMTMydAAFcHdvcmRxAH4AA3QADXRyYW5zRGV0YWlsSWRxAH4AA3QADVNTX1VzZXJUeXBlSWRwdAAKd3Jlc3RsZXJJZHEAfgADdAAIUGFzc3dvcmR0AAB0AAdldmVudElkcQB+AAN0AAZBVU5hbWVwdAAGQVBXb3JkcHQACFVzZXJOYW1lcQB+ABV0AAV1bmFtZXEAfgADdAANdHJhbnNhY3Rpb25JZHEAfgADdAAOVG91cm5hbWVudFR5cGV0AAEzdAAGZHVhbElkcQB+AAN0AAdTU19HQklkcHQAE1N5c3RlbUFkbWluUGFzc3dvcmRwdAAGVXNlcklkcQB+ABV0AAZ0ZWFtSWRxAH4AA3QAClNTUF9leHBpcmV0AA0xNjcwODIxMjMzMjc1dAAMVG91cm5hbWVudElkdAAJNjg5NzMzMTMydAAJcmFua2luZ0lkcQB+AAN0AAh1c2VyVHlwZXEAfgADdAALU1NfU2Vhc29uSWRwdAAIVXNlclR5cGV0AAZ2aWV3ZXJ0AAVTU19QV3B4';</script>
+
+
+
+<!--TW Menu Code: need to update the onload function to call twMenuStartUp()-->
+
+
+
+
+<form id="theForm" name="theForm" method="post">
+
+<input type="hidden" id="user" name="user" value="689733132">
+<input type="hidden" id="tournamentId" name="tournamentId" value="689733132">
+<input type="hidden" id="patternBox" name="patternBox" value="twt.bd,twt.sd">
+<input type="hidden" id="myPassword" name="myPassword" value="thisPasswordWillBeToughToCrack">
+
+<iframe style="position:absolute" id="MethodCallerFrame" name="MethodCallerFrame" src="MethodCaller.jsp" width="1px" height="1px" frameborder="0"></iframe>
+
+
+
+<!--*****************************************************************
+TW Menu Code
+*********************************************************************-->
+<!--Header-->
+<div id="header-bg" class="container">
+	<header id="menuButton">
+		<button type="button" class="menu-toggle segment-track" onclick="toggleMainMenu()"><i aria-hidden="true" class="icon-menu"> </i></button>
+		<div class="desktopHidden">
+			<a href="../TWHome.jsp?TIM=1670817633232&amp;twSessionId=alvecsztui" class="segment-track">
+				<img id="logo_1" src="../images/tw_logo.png">
+				<img id="logo_2" src="../images/Trackwrestling-logo.svg">
+			</a>
+		</div>
+	</header>
+</div>
+
+<!--Main Menu Bar -->
+<nav class="main-menu" id="mainMenu">
+	<ul class="container">
+		<!-- Main menu 1 - TRACKWRESTLING -->
+		<li> <a href="javascript:displayMenu('subMenu-trackwrestling', 'left', 1, 'Trackwrestling')" class="segment-track">
+			<div class="menu-item"> <span class="icon"> <i aria-hidden="true" class="icon-tw2"></i> </span> <span class="desktopHidden">Trackwrestling</span><span class="mobileHidden">Track</span> <i aria-hidden="true" class="icon-arrow_r pointer"></i> </div>
+			</a> </li>
+
+		<!-- Main menu 2 - FloPRO -->
+		<li> <a href="javascript:displayMenu('subMenu-gold', 'left', 1, 'FloPRO Subscription')" class="segment-track">
+			<div class="menu-item"> <span class="icon"> <i aria-hidden="true" class="icon-hawk-red"></i> </span> <span>FloPRO</span> <i aria-hidden="true" class="icon-arrow_r pointer"></i> </div>
+			</a> </li>
+
+		<!-- Main menu 3 - Browse -->
+		<li> <a href="javascript:displayMenu('subMenu-browse', 'left', 1, 'Browse')" class="segment-track">
+			<div class="menu-item"> <span class="icon"> <i aria-hidden="true" class="icon-search"></i> </span> <span>Browse</span> <i aria-hidden="true" class="icon-arrow_r pointer"></i> </div>
+			</a> </li>
+
+		<!-- Main menu 4 - MANAGE -->
+		<li> <a href="javascript:displayMenu('subMenu-manage', 'left', 1, 'Manage')" class="segment-track">
+			<div class="menu-item"> <span class="icon"> <i aria-hidden="true" class="icon-user"></i> </span> <span>Manage</span> <i aria-hidden="true" class="icon-arrow_r pointer"></i> </div>
+			</a> </li>
+
+		<!-- Main menu 5 - SERVICES -->
+		<li> <a href="../Services.jsp?TIM=1670817633232&amp;twSessionId=alvecsztui" class="segment-track">
+			<div class="menu-item"> <span class="icon"> <i aria-hidden="true" class="icon-cog"></i> </span> <span>Services</span> <i aria-hidden="true" class="icon-arrow_r pointer"></i> </div>
+			</a> </li>
+
+		<!-- Main menu 6 - REGISTER -->
+		<li> <a href="javascript:displayMenu('subMenu-register', 'left', 1, 'Register')" class="segment-track">
+			<div class="menu-item"> <span class="icon"> <i aria-hidden="true" class="icon-signup"></i> </span> <span>Register</span> <i aria-hidden="true" class="icon-arrow_r pointer"></i> </div>
+			</a> </li>
+
+		<!-- Main menu 7 - SUPPORT -->
+		<li> <a href="https://support.trackwrestling.com" target="_blank" class="segment-track">
+			<div class="menu-item"> <span class="icon"> <i aria-hidden="true" class="icon-question"></i> </span> <span>Support</span> <i aria-hidden="true" class="icon-arrow_r pointer"></i> </div>
+			</a> </li>
+	</ul>
+</nav>
+<!--END Main Menu Bar -->
+
+<!-- myTRACK login tab -->
+<div class="container">
+  <div class="tw-login-content">
+		<i aria-hidden="true" onclick="closeMyTrack()" class="icon-close tab"></i>
+    <div id="tw-login" class="tw-login"><div onclick="toggleMyTrackLogin()">	<div class="userTrack" id="userTrack-login">		<span>Josh</span><div></div>	</div></div>		<div class="button-row align-middle">			<div class="std-button xs-button">				<a href="javascript:gotoBuildFilePrefixURLPage('MyTrackHome.jsp')">				<i aria-hidden="true" class="icon-home"></i><span>Home</span></a>			</div>			<div class="std-button xs-button">				<a href="javascript:gotoBuildFilePrefixURLPage('membership/EditProfile.jsp?twId=1026053135&amp;pword=yjwsatsnrwtotzptdmgqjdvftunhbmxgevqqfcshfxhlnsvgalrnnctqimxyjyrm')">				<i aria-hidden="true" class="icon-cog"></i><span>My Account</span></a>			</div>			<div class="std-button xs-button">				<a href="javascript:myTrackSignOut()">				<i aria-hidden="true" class="icon-exit"></i><span>Sign Out</span></a>			</div>		</div>		<a id="myTrackBookmarkIcon" href="javascript:bookmarkMyTrack()" style="visibility:hidden;"><i aria-hidden="true" class="icon-open-book"></i>Bookmark</a></div>
+  </div>
+</div>
+
+<div id="swiper">
+	<div id="subMenu" class="subMenu-closed">
+		<div id="subMenuContainer" style="left: 0%;">
+			<div class="slider-frame">
+				<!--The 4 div's that are part of the slider need to all be on the same line in this file or it screws up the styles and formatting-->
+				<div id="sliderFrame1"></div><div id="sliderFrame2"></div><div id="sliderFrame3"></div><div id="sliderFrame4"></div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="mobile-menu-spacing group"></div>
+
+<!--
+<script language="javascript">
+
+function menuSearch(){
+	var tName = document.getElementById("menuSearchBox").value;
+	goTo(twMenuLinkPrefix+"/Login.jsp?TIM=1670817633232&twSessionId=alvecsztui&tName="+tName);
+}
+
+</script>
+-->
+
+<div id="twHeadPageContent" class="page-wrap page-shadow">
+	<div>
+
+<!--*****************************************************************-->
+
+		
+
+			<div class="mainFrame">
+
+				
+
+				<div id="loadingMessage" style="text-align: center;"></div>
+
+				
+				<div class="g1MenuHeaderWrapper" id="g1MenuHeaderWrapper" style="color: rgb(67, 67, 67); border-bottom-color: rgb(0, 112, 187);">
+					<img src="https://www.trackwrestling.com/tw/uploads/T-641174132-TCHlogo.png" style="z-index: 2; position: absolute; height: 100%; width: auto; top: 0; left: 0;" onerror="this.style.display='none'">
+					<h1 class="frameHeader" style="position: relative; z-index: 3; color: inherit; text-shadow: 1px 2px 1px #CCC; font-weight: bold;"><span id="menuHeader">Rebel Duals </span></h1>
+					<div class="g1MainMenuFrame" id="g1MainMenuFrame" style="position: relative; z-index: 3;">	<div id="slideMenu"></div><div id="slideMenuFrame" class="slideMenuFrame" style="border-top-color: rgb(0, 112, 187); border-right-color: rgb(0, 112, 187); border-left-color: rgb(0, 112, 187); background-color: rgb(0, 112, 187);">	<ul style="background-color: rgb(0, 112, 187);"><li><a href="../Login.jsp?TIM=1670817633232&amp;twSessionId=alvecsztui"><i aria-hidden="true" class="icon-home"></i>	</a></li><li><a href="javascript:changeFrame('TournamentHub.jsp?TIM=1670817633232&amp;twSessionId=alvecsztui')">Hub	</a></li><li><a href="javascript:changeFrame('BracketViewer.jsp?TIM=1670817633232&amp;twSessionId=alvecsztui')">Brackets	</a></li><li><a href="javascript:g1MainMenuItemSelected(30931009, 'Results')" onclick="indicateActive(event)" class="">Results	</a></li><li><a href="javascript:g1MainMenuItemSelected(30908009, 'Information')" onclick="indicateActive(event)">Information	</a></li><li><a href="javascript:changeFrame('TournamentWeightClasses.jsp?TIM=1670817633232&amp;twSessionId=alvecsztui')">Weights	</a></li><li><a href="javascript:changeFrame('TournamentParticipants.jsp?TIM=1670817633232&amp;twSessionId=alvecsztui')">Wrestlers	</a></li><li><a href="javascript:changeFrame('TournamentTeams.jsp?TIM=1670817633232&amp;twSessionId=alvecsztui')">Teams	</a></li>	</ul></div></div>
+					<div class="g1MenuHeaderBackground" id="g1MenuHeaderBackground"></div>
+				</div>
+
+				<div class="g1SubMenuFrame" id="g1SubMenuFrame" style="max-height: 1020.67px;"></div>
+
+				<div class="divTB" style="height: 100%;">
+					<div class="divTR">
+						<div class="divTD" style="position: relative; width: 100%;">
+							<iframe id="PageFrame" name="PageFrame" src="" width="100%" height="400px" frameborder="0" onload="() => {
+					// Don't refresh ads the first time
+					if (pageFrameLoaded){
+						refreshAds()
+					} else {
+						pageFrameLoaded = true;
+					}
+				}" style="height: 1020.67px;"></iframe>
+						</div>
+						<div class="divTD" style="position: relative; vertical-align: top;">
+
+							<div class="g1SubMenuSideBarFrame" id="toDoListFrame" style="height: 1020.67px;">
+								<div class="listTitle">To Do List</div>
+								<a href="javascript:displaySubMenuSideBar('toDoListFrame')" class="close-sidebar segment-track"><i aria-hidden="true" class="icon-close"></i></a>
+								<ul>
+									<li><input type="checkbox" id="toDoListItem_581595135" onchange="togglePlanItem(this,581595135)"><label for="toDoListItem_581595135"></label><a href="javascript:viewAnswer(99007)" class="segment-track">Things to do right away</a></li><li><input type="checkbox" id="toDoListItem_581596135" onchange="togglePlanItem(this,581596135)"><label for="toDoListItem_581596135"></label><a href="javascript:viewAnswer(33007)" class="segment-track">Import tournament settings</a></li><li><input type="checkbox" id="toDoListItem_581597135" onchange="togglePlanItem(this,581597135)"><label for="toDoListItem_581597135"></label><a href="javascript:viewAnswer(34007)" class="segment-track">Review/Edit Settings</a></li><li><input type="checkbox" id="toDoListItem_581598135" onchange="togglePlanItem(this,581598135)"><label for="toDoListItem_581598135"></label><a href="javascript:viewAnswer(36007)" class="segment-track">Edit Deadlines</a></li><li><input type="checkbox" checked="" id="toDoListItem_581599135" onchange="togglePlanItem(this,581599135)"><label for="toDoListItem_581599135"></label><a href="javascript:viewAnswer(31007)" class="segment-track">Add Teams</a></li><li><input type="checkbox" id="toDoListItem_581600135" onchange="togglePlanItem(this,581600135)"><label for="toDoListItem_581600135"></label><a href="javascript:viewAnswer(100007)" class="segment-track">Add Charts</a></li><li><input type="checkbox" id="toDoListItem_581601135" onchange="togglePlanItem(this,581601135)"><label for="toDoListItem_581601135"></label><a href="javascript:viewAnswer(101007)" class="segment-track">Select bracket types</a></li><li><input type="checkbox" id="toDoListItem_581602135" onchange="togglePlanItem(this,581602135)"><label for="toDoListItem_581602135"></label><a href="javascript:viewAnswer(38007)" class="segment-track">Add Weight Classes</a></li><li><input type="checkbox" id="toDoListItem_581603135" onchange="togglePlanItem(this,581603135)"><label for="toDoListItem_581603135"></label><a href="javascript:viewAnswer(103007)" class="segment-track">Setup rounds/schedule</a></li><li><input type="checkbox" id="toDoListItem_581604135" onchange="togglePlanItem(this,581604135)"><label for="toDoListItem_581604135"></label><a href="javascript:viewAnswer(43007)" class="segment-track">Set up team logins</a></li><li><input type="checkbox" id="toDoListItem_581605135" onchange="togglePlanItem(this,581605135)"><label for="toDoListItem_581605135"></label><a href="javascript:viewAnswer(45007)" class="segment-track">Copy to testing</a></li><li><input type="checkbox" id="toDoListItem_581606135" onchange="togglePlanItem(this,581606135)"><label for="toDoListItem_581606135"></label><a href="javascript:viewAnswer(46007)" class="segment-track">Do week of event</a></li><li><input type="checkbox" id="toDoListItem_581607135" onchange="togglePlanItem(this,581607135)"><label for="toDoListItem_581607135"></label><a href="javascript:viewAnswer(47007)" class="segment-track">Do night before event</a></li><li><input type="checkbox" id="toDoListItem_581608135" onchange="togglePlanItem(this,581608135)"><label for="toDoListItem_581608135"></label><a href="javascript:viewAnswer(105007)" class="segment-track">Print team detail</a></li><li><input type="checkbox" id="toDoListItem_581609135" onchange="togglePlanItem(this,581609135)"><label for="toDoListItem_581609135"></label><a href="javascript:viewAnswer(48007)" class="segment-track">Print weigh-in sheet</a></li><li><input type="checkbox" id="toDoListItem_581610135" onchange="togglePlanItem(this,581610135)"><label for="toDoListItem_581610135"></label><a href="javascript:viewAnswer(106007)" class="segment-track">Make roster changes</a></li><li><input type="checkbox" id="toDoListItem_581611135" onchange="togglePlanItem(this,581611135)"><label for="toDoListItem_581611135"></label><a href="javascript:viewAnswer(107007)" class="segment-track">Build Brackets</a></li><li><input type="checkbox" id="toDoListItem_581612135" onchange="togglePlanItem(this,581612135)"><label for="toDoListItem_581612135"></label><a href="javascript:viewAnswer(109007)" class="segment-track">Print Brackets</a></li><li><input type="checkbox" id="toDoListItem_581613135" onchange="togglePlanItem(this,581613135)"><label for="toDoListItem_581613135"></label><a href="javascript:viewAnswer(108007)" class="segment-track">Print bout sheets</a></li><li><input type="checkbox" id="toDoListItem_581614135" onchange="togglePlanItem(this,581614135)"><label for="toDoListItem_581614135"></label><a href="javascript:viewAnswer(110007)" class="segment-track">Enter bout results</a></li><script>if(false && !mobileFrame) displaySubMenuSideBar('toDoListFrame')</script>
+								</ul>
+							</div>
+
+						</div>
+
+					</div>
+
+				</div>
+
+				<div id="fixed-ad-frame" class="fixed-ad-frame" style="height: 89px;"><div class="ad-slot-frame lg-ad-slot"><div id="div-ad-slot-1" class="div-ad-slot up-show" data-google-query-id="CPWzgP2Y8_sCFZLG9QIdsoQC_Q"><div class="ahover" style="position: relative; width: max-content !important; z-index: 0; margin: 0px auto; display: block;"><iframe src="/ads.txt?upapi=true" marginwidth="0" marginheight="0" scrolling="no" width="728" height="90" style="width: 728px; height: 90px; border: 0px;"></iframe><div class="upo-label" style="text-align: left; padding: 0px; margin: 0px; position: absolute; top: 0px; left: 0px; z-index: 10000; transition: opacity 1s ease-out 0s; opacity: 1; cursor: pointer;"><span style="display:block;background:rgba(255, 255, 255, 0.7);height:fit-content;width:fit-content;top:0;left:0;color:#444;font-size:10px;font-weight:bold;font-family:sans-serif;line-height:normal;text-decoration:none;margin:0px;padding:6px;border-radius:0 0 5px 0;">AD</span></div></div></div></div></div>
+
+			<div id="ad-frame-space" style="height: 91.3333px;"></div></div>
+
+		
+
+<!--*****************************************************************
+TW Menu Code
+*********************************************************************-->
+	</div>
+</div>
+<!--*****************************************************************-->
+
+
+
+
+
+</form>
+
+
+
+<div class="focusDiv" id="focusDiv"></div><script type="text/javascript" id="">window.grumi={cfg:{advs:{4409051465:!0,4739813436:!0,5007374826:!0,4995583385:!0}},key:"33cea31c-ec69-44af-afb7-3e0656e35da6"};</script>
+<script type="text/javascript" id="" src="//rumcdn.geoedge.be/33cea31c-ec69-44af-afb7-3e0656e35da6/grumi-ip.js"></script>    <script type="text/javascript" id="">var DIDNA_CONFIG={manualMode:!1,activeTab:!0,headerBidding:1,headerBiddingProvider:"openwrap",enableRulesEngine:!1,didnaTrackers:!1,enableAmazonA9:!0,lazyload:1,scanners:{confiant:{prebid:0}},amazonA9Config:{pubId:"2e897944-3457-4bd4-87d9-700e22317ff4"},factoryConfig:{all:{inViewRefresh:2E4}},setupConfig:{outOfViewRefresh:!1}};</script>
+    <script type="text/javascript" id="" src="https://storage.googleapis.com/didna-prod/didna_openwrap_util.min.js.gz"></script>    <script type="text/javascript" id="">var googletag=googletag||{},qry=window.location.search.replace(/(^\?)/,"").split("\x26").map(function(d){return d=d.split("\x3d"),this[d[0]]=d[1],this}.bind({}))[0];googletag.cmd=googletag.cmd||[];(function(){var d=document.createElement("script"),a="https:"==document.location.protocol;d.src=(a?"https:":"http:")+"//www.googletagservices.com/tag/js/gpt.js";a=document.getElementsByTagName("script")[0];a.parentNode.insertBefore(d,a)})();
+googletag.cmd.push(function(){function d(){if(!1!==a.hasOwnProperty("adUnit")){switch(a.adUnit){case "event":e="Events";!1!==a.hasOwnProperty("targeting")&&!1!==a.targeting.hasOwnProperty("event_id")&&(g.bracket_sponsor_logo=[1,1],a.slots.push("bracket_sponsor_logo"));break;case "season":e="Seasons";break;case "profile":e="Profiles";break;case "video":e="Portals/Video";break;case "article":e="Portals/Article";break;default:e="TWHome"}a.slots.forEach(function(c){adContainer="div-ad-slot-"+m;-1===["home",
+"event","season"].indexOf(a.adUnit)?(h=k+"/"+e+"/"+c,g.footer=1<a.slots.length?[[728,90],[320,50]]:[[728,90],[320,50],[2,1]]):"bracket_sponsor_logo"==c?(h=k+"/"+c,adContainer="div-ad-slot-bracket"):(h=k+"/"+e,-1!=["event","season"].indexOf(a.adUnit)&&(g.footer=[[728,90],[970,90],[320,50],[2,1]]));f[c]=googletag.defineSlot(h,g[c],adContainer).addService(googletag.pubads());n.push({id:adContainer,adUnitPath:h,size:g[c]});p.push(adContainer);-1!=["event","season"].indexOf(a.adUnit)&&"footer"==c?f[c].defineSizeMapping(l):
+("header"==c&&(f[c].defineSizeMapping(l),f[c].setTargeting("position","highimpact").setTargeting("highimpact_cnter","body")),"footer"==c&&(1<a.slots.length?f[c].defineSizeMapping(q):(sizeMapHI=googletag.sizeMapping().addSize([690,0],[[728,90],[2,1]]).addSize([640,0],[[320,50],[2,1]]).addSize([320,0],[[320,50],[2,1]]).build(),f[c].defineSizeMapping(l),f[c].setTargeting("position","highimpact").setTargeting("highimpact_cnter","body"))));m++});if(!1!==a.hasOwnProperty("targeting"))for(var b in a.targeting)"string"==
+typeof a.targeting[b]?googletag.pubads().setTargeting(b,a.targeting[b].toLowerCase()):googletag.pubads().setTargeting(b,a.targeting[b].join(", ").toLowerCase())}}var a=window.gtmObject||{},k="/43625987/Desktop/TrackWrestling",g={header:[[728,90],[970,90],[320,50],[2,1]],sidebar:[[300,250],[300,600]],footer:[728,90]},h,m=1,e,f={},n=[],p=[],q=googletag.sizeMapping().addSize([690,0],[[728,90]]).addSize([640,0],[[320,50]]).addSize([320,0],[[320,50]]).build(),l=googletag.sizeMapping().addSize([940,0],
+[[728,90],[970,90],[2,1]]).addSize([690,0],[[728,90],[2,1]]).addSize([640,0],[[320,50],[2,1]]).addSize([320,0],[[320,50],[2,1]]).build();!1!==qry.hasOwnProperty("experiment")&&googletag.pubads().setTargeting("experiment",qry.experiment);window._adSlots=f;window.refreshAds=function(){didna.cmd.push(function(){if(!1!==a.hasOwnProperty("targeting"))for(var b in a.targeting)"string"==typeof a.targeting[b]?googletag.pubads().setTargeting(b,a.targeting[b].toLowerCase()):googletag.pubads().setTargeting(b,
+a.targeting[b].join(", ").toLowerCase());didna.removeAdUnits(p);didna.createAdUnits(n)})};d();googletag.pubads().enableSingleRequest();googletag.pubads().enableAsyncRendering();googletag.pubads().disableInitialLoad();googletag.pubads().setPublisherProvidedId(google_tag_manager["GTM-KMWQQQT"].macro(5));googletag.enableServices();googletag.pubads().addEventListener("slotRenderEnded",function(b){"div-ad-slot-1"===b.slot.getSlotElementId()&&b.slot==didna.factories[0].slot&&(window.fi=window.fi||{queue:[]},window.fi.queue.push(function(){document.body.classList.contains("floimpact")&&
+(didna.stopUnit("div-ad-slot-1"),didna.factories[0].noRefresh=!0,didna.factories[0].getNewBids=function(){})}))});googletag.pubads().addEventListener("slotResponseReceived",function(b){b=b.slot;try{b===_adSlots.footer&&!0===window.hasOwnProperty("GUMGUM")&&(console.log("Removed ISAd"),GUMGUM.removeISAd())}catch(c){}})});</script><link rel="dns-prefetch" href="https://c.amazon-adsystem.com">
+<link rel="preconnect" href="https://c.amazon-adsystem.com" crossorigin="">
+<script type="text/javascript" id="" src="https://c.amazon-adsystem.com/aax2/apstag.js"></script><script type="text/javascript" id="" src="https://btloader.com/tag?o=5727945334194176&amp;upapi=true"></script>
+    <script type="text/javascript" id="">function getMediaLayout(){var a=/Mobile|iP(hone|od|ad)|Android|BlackBerry|IEMobile/i,b=window.innerWidth;if(768>b)return"mobile";if(993>b)return"tablet";a=navigator.userAgent.match(a);return null==a?"desktop":"mobile"}
+(function(){var a=window.location.href,b="//ads.pubmatic.com/AdServer/js/pwt/160547/",c="desktop"==getMediaLayout()?"3817":"3818";if(0<a.indexOf("pwtv\x3d")){var d=/pwtv=(.*?)(&|$)/g;a=d.exec(a);2<=a.length&&0<a[1].length&&(c=a[1])}a=document.createElement("script");a.async=!0;a.type="text/javascript";a.src=b+c+"/pwt.js";b=document.getElementsByTagName("script")[0];b.parentNode.insertBefore(a,b)})();</script>
+
+<script type="text/javascript" id="">!function(a,c,f,g,h,k,l){function b(d,e){c[a]._Q.push([d,e])}c[a]||(c[a]={init:function(){b("i",arguments)},fetchBids:function(){b("f",arguments)},setDisplayBids:function(){},targetingKeys:function(){return[]},deleteId:function(){b("di",arguments)},renewId:function(){b("ri",arguments)},updateId:function(){b("ui",arguments)},_Q:[]})}("apstag",window);(function(){var a="f6ed92c216dc0de0fbc3e3c6d03738d01d8706f625b1009bee3032f814f3d46e";a&&"undefined"!=a&&apstag.renewId({hashedRecords:[{type:"email",record:"f6ed92c216dc0de0fbc3e3c6d03738d01d8706f625b1009bee3032f814f3d46e"}],optOut:!1})})();</script><img src="https://ad-delivery.net/px.gif?ch=2" style="display: none !important; width: 1px !important; height: 1px !important;"><img src="https://ad.doubleclick.net/favicon.ico?ad=300x250&amp;ad_box_=1&amp;adnet=1&amp;showad=1&amp;size=250x250" style="display: none !important; width: 1px !important; height: 1px !important;"><img src="https://ad-delivery.net/px.gif?ch=1&amp;e=0.25183654846496717" style="display: none !important; width: 1px !important; height: 1px !important;"><div class="ads ad adsbox doubleclick ad-placement carbon-ads adglare" id="bt-bait-element" style="width: 1px !important; height: 1px !important; position: absolute !important; left: -5000px !important; top: -5000px !important;">&nbsp;</div><script src="https://ats.rlcdn.com/ats.js"></script><iframe src="https://397f061ac9db79f605e994be86a69251.safeframe.googlesyndication.com/safeframe/1-0-40/html/container.html?upapi=true" style="visibility: hidden; display: none;"></iframe><iframe style="display: none; width: 1px; height: 1px;"></iframe><iframe src="https://static.btloader.com/safeFrame.html?upapi=true" style="width: 0px; height: 0px; display: none !important;"></iframe><iframe src="/ads.txt?upapi=true" style="width: 0px; height: 0px; display: none;"></iframe><iframe src="https://www.google.com/recaptcha/api2/aframe" width="0" height="0" style="display: none;"></iframe><iframe src="https://s.amazon-adsystem.com/iu3?cm3ppd=1&amp;d=dtb-pub&amp;csif=t&amp;gdpr=0&amp;dl=gg_n-LoopMe_rx_n-MediaNet_smrt_cnv_n-amobee_n-smaato_pm-db5_n-simpli.fi_rbd_n-emx_ppt_n-nativo_an-db5_sovrn_3lift_n-Outbrain" style="display: none;"></iframe></body><grammarly-desktop-integration data-grammarly-shadow-root="true"></grammarly-desktop-integration><iframe sandbox="allow-scripts allow-same-origin" id="284db29dbee00e8" frameborder="0" allowtransparency="true" marginheight="0" marginwidth="0" width="0" hspace="0" vspace="0" height="0" style="height:0px;width:0px;display:none;" scrolling="no" src="https://eb2.3lift.com/sync?us_privacy=1NNN&amp;upapi=true">
+    </iframe><iframe sandbox="allow-scripts allow-same-origin" id="29ac5070b17970e" frameborder="0" allowtransparency="true" marginheight="0" marginwidth="0" width="0" hspace="0" vspace="0" height="0" style="height:0px;width:0px;display:none;" scrolling="no" src="https://acdn.adnxs.com/dmp/async_usersync.html">
+    </iframe><iframe sandbox="allow-scripts allow-same-origin" id="3022cf99865a08a" frameborder="0" allowtransparency="true" marginheight="0" marginwidth="0" width="0" hspace="0" vspace="0" height="0" style="height:0px;width:0px;display:none;" scrolling="no" src="https://js-sec.indexww.com/um/ixmatch.html">
+    </iframe><iframe sandbox="allow-scripts allow-same-origin" id="313562fd77faa6" frameborder="0" allowtransparency="true" marginheight="0" marginwidth="0" width="0" hspace="0" vspace="0" height="0" style="height:0px;width:0px;display:none;" scrolling="no" src="https://ads.pubmatic.com/AdServer/js/user_sync.html?kdntuid=1&amp;p=160547&amp;us_privacy=1NNN">
+    </iframe><iframe sandbox="allow-scripts allow-same-origin" id="32b617ed437504d" frameborder="0" allowtransparency="true" marginheight="0" marginwidth="0" width="0" hspace="0" vspace="0" height="0" style="height:0px;width:0px;display:none;" scrolling="no" src="https://eus.rubiconproject.com/usync.html?us_privacy=1NNN">
+    </iframe><iframe sandbox="allow-scripts allow-same-origin" id="334581958de9885" frameborder="0" allowtransparency="true" marginheight="0" marginwidth="0" width="0" hspace="0" vspace="0" height="0" style="height:0px;width:0px;display:none;" scrolling="no" src="https://contextual.media.net/checksync.php?vsSync=1&amp;cs=8&amp;cv=31&amp;https=1&amp;cid=8CU5F4L46&amp;prvid=2034%2C2033%2C2031%2C2030%2C273%2C2028%2C2027%2C2025%2C237%2C117%2C97%2C55%2C99%2C3012%2C2043%2C3011%2C3010%2C201%2C3007%2C246%2C4%2C203%2C9%2C2011%2C3022%2C3020%2C294%2C251%2C175%2C2009%2C178%2C255%2C3018%2C3017%2C214%2C2047%2C3014%2C337%2C338%2C77%2C38%2C182%2C261%2C141%2C262%2C222%2C301%2C225%2C10000%2C80%2C108%2C229%2C307&amp;itype=PREBID&amp;purpose1=1&amp;gdprconsent=1&amp;gdpr=0&amp;coppa=0&amp;usp_status=1&amp;usp_consent=1&amp;uspstring=1NNN">
+    </iframe><iframe sandbox="allow-scripts allow-same-origin" id="349d0230dd28639" frameborder="0" allowtransparency="true" marginheight="0" marginwidth="0" width="0" hspace="0" vspace="0" height="0" style="height:0px;width:0px;display:none;" scrolling="no" src="https://pre.ads.justpremium.com/v/1.0/t/sync?_c=av3jsgi1670817635752&amp;usPrivacy=1NNN">
+    </iframe></html>
