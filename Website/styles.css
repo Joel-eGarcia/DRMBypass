@@ -13,9 +13,14 @@
 body {
 	font-family: 'Open Sans', sans-serif;
 	line-height: 1.5;
-    overflow: hidden;
+	-ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+    scroll-behavior: smooth;
 }
-
+/* Scrollbar */
+body::-webkit-scrollbar {
+    display: none;
+}
 a {
 	text-decoration: none;
 	color: var(--primary-color);
@@ -90,7 +95,7 @@ h1 {
 }
 
 #about {
-	padding: 40px;
+	padding: 300px;
 	text-align: center;
 }
 
@@ -124,3 +129,10 @@ h1 {
     background: rgba(0, 0, 0, 0);
     opacity: 0.6;
   }
+
+
+
+
+
+
+  
